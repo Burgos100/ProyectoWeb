@@ -1,0 +1,33 @@
+body {
+    background-color: bisque;
+    margin:0;
+    padding: 0;
+}
+
+.boton {
+bottom:10px;
+right:10px;
+padding:10px 20px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 25;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+alt{
+    font-family: Arial, Helvetica, sans-serif;
+}
