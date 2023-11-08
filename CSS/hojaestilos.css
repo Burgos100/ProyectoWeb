@@ -48,6 +48,8 @@ margin: 0 auto;
     background-color: black;
 }
 .boton {
+width: 70px;
+height: 40px;
 bottom:10px;
 right:10px;
 padding:10px 20px;
