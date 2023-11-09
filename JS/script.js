@@ -11,5 +11,5 @@ function crearCirculo(area) {
     circle.style.width = radius * 2 + "px";
     circle.style.height = radius * 2 + "px";
 
-    document.querySelector(".recuadro").appendChild(circle);
+    document.querySelector(".recuadro2").appendChild(circle);
 }
