@@ -160,3 +160,31 @@ position: relative;
 width: 692px;
 height: 375px;
 }
+.contadorRecuadro {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.lateralDerecho {
+    position: fixed;
+    top: 104px;
+    right: 0;
+    width: 200px; /* Ancho del lateral izquierdo */
+    background-color: #ffffff;
+    padding: 10px;
+    border: 2px solid #000000;
+    overflow-y: auto; /* Habilitar desplazamiento vertical si el contenido es demasiado largo */
+    height: auto; /* Ajuste para ocupar toda la altura de la pantalla */
+}
+
+.textoRecuadro {
+    border: 2px solid #000000;
+    padding: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
