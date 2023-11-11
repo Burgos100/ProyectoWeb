@@ -5,17 +5,22 @@ body {
 }
 
 .boton {
-    border: black;
     padding: 15px 42px;
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 15px;
     color: rgb(0, 0, 0);
-    background-color: rgb(209, 209, 209);
-    text-align: right;
-    text-decoration: none;
-    display: inline-block;
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    text-decoration: none !important;
+    display: block;
     font-size: 16px;
-    margin: 8px 550px;
+    margin: 8px auto;
     cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.boton:hover {
+    transform: scale(1.1);
 }
 
 .sidebar {
@@ -151,7 +156,9 @@ h4{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 16px;
-    padding-left: 519px;
+    background: bisque;
+    width: fit-content;
+    margin: 2rem auto;
 }
 
 h5{
@@ -162,7 +169,9 @@ h5{
 }
 p{
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 500px;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
 }
 
 p1{
