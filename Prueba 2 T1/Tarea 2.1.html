@@ -6,16 +6,18 @@
     <link rel="stylesheet" type="text/css" href="../CSS/hojaestilos2.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prueba II: Pensamiento Analógico</title>
+    <script src="/js/temporizador.js"></script>
     </head>
    
     <body>
+        <div id="countdown">Tiempo restante: 02:00</div>
         <div>
         <h1>Prueba II: Pensamiento Analógico</h1>
             <hr>
             <h2> Instrucción:</h2>
             <h3>En los siguientes ejercicios encontrarás analogías, lee y encierra en un círculo la opción que
                 completa la oración de forma correcta. Dispones de 5 minutos para completar esta actividad.</h3>
-            <hr>
+            <hr>  
         </div>
         <div>
             <p1><b>Ejemplo:</b> El <b>escritor</b> es a <b>libro</b> como ...</p1>
@@ -60,4 +62,18 @@
             <button class="boton">Siguiente</button>
         </a>
         <br>
+        <div class="sidebar" id="sidebar">
+            <ul>
+                <li><a href="#" id="increaseFontSizeButton">Aumentar el texto ✓</a></li>
+                <li><a href="#" id="decreaseFontSizeButton">Disminuir el texto ✓</a></li>
+                <li><a href="#" id="grayscaleButton">Escala de grises ✓</a></li>
+                <li><a href="#">Alto contraste ✗</a></li>
+                <li><a href="#" id="invertColorsButton">Invertir Colores ✓</a></li>
+                <li><a href="#">Fondo claro ✗</a></li>
+                <li><a href="#">Fuente legible ✗</a></li>
+                <li><a href="#" id="resetButton">Reset ✓</a></li>
+            </ul>
+    </div>
+                <button id="toggleButton">Accesibilidad</button>
+                <script src="/js/sidebar.js"></script>
     </body>
