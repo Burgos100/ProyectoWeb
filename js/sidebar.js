@@ -20,18 +20,24 @@ invertColorsButton.addEventListener('click', () => {
 
 // Agregar un evento de clic al botón de aumento de tamaño de fuente
 increaseFontSizeButton.addEventListener('click', () => {
-    // Obtener el tamaño de fuente actual, aumentarlo y aplicarlo al cuerpo del documento
-    const currentSize = window.getComputedStyle(document.body, null).getPropertyValue('font-size');
-    const newSize = parseFloat(currentSize) * 1.2;
-    document.body.style.fontSize = newSize + 'px';
+    // Obtener el tamaño de fuente actual en puntos (pt)
+    const currentSizePX = parseFloat(window.getComputedStyle(document.body, null).getPropertyValue('font-size'));
+    const currentSizePT = currentSizePX / 1.3333; // Convertir de px a pt
+
+    // Aumentar el tamaño de fuente en pt y aplicarlo al cuerpo del documento
+    const newSizePT = currentSizePT * 1.2;
+    document.body.style.fontSize = newSizePT + 'pt';
 });
 
 // Agregar un evento de clic al botón de reducción de tamaño de fuente
 decreaseFontSizeButton.addEventListener('click', () => {
-    // Obtener el tamaño de fuente actual, reducirlo y aplicarlo al cuerpo del documento
-    const currentSize = window.getComputedStyle(document.body, null).getPropertyValue('font-size');
-    const newSize = parseFloat(currentSize) / 1.2;
-    document.body.style.fontSize = newSize + 'px';
+    // Obtener el tamaño de fuente actual en puntos (pt)
+    const currentSizePX = parseFloat(window.getComputedStyle(document.body, null).getPropertyValue('font-size'));
+    const currentSizePT = currentSizePX / 1.3333; // Convertir de px a pt
+
+    // Reducir el tamaño de fuente en pt y aplicarlo al cuerpo del documento
+    const newSizePT = currentSizePT / 1.2;
+    document.body.style.fontSize = newSizePT + 'pt';
 });
 
 // Agregar un evento de clic al botón de escala de grises
