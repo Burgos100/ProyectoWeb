@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="CSS/hojaestilos.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="js/script.js"></script>
+</head>
+<body>
+<h3>Instrucciones</h3>
+<p>Clickea sobre las diez diferencias en la siguiente imagen. Para confirmar que es una diferencia, al clickear sobre ella se generará un recuadro a la derecha de la imagen registrando las diferencias.</p>
+<div class="recuadro-contenedor">
+<div class="recuadro2">
+    <H2>Lámina 2</H2>
+        <img src = "IMAGENES/prueba 3.jpg" usemap="#diferencias" class="imagen2">
+        <map name="diferencias">
+            <area  href="javascript:void(0);" coords="174,49,49" shape="circle" onclick="crearCirculo(this, 'Avion')">
+            <area  href="javascript:void(0);" coords="150,177,41" shape="circle" onclick="crearCirculo(this, 'Chimenea')">
+            <area  href="javascript:void(0);" coords="119,341,27" shape="circle" onclick="crearCirculo(this, 'Puerta 1')">
+            <area  href="javascript:void(0);" coords="60,296,34" shape="circle" onclick="crearCirculo(this, 'Semaforo')">
+            <area  href="javascript:void(0);" coords="282,139,49" shape="circle" onclick="crearCirculo(this, 'Nube')">
+            <area  href="javascript:void(0);" coords="361,349,29" shape="circle" onclick="crearCirculo(this, 'Puerta 2')">
+            <area  href="javascript:void(0);" coords="530,315,32" shape="circle" onclick="crearCirculo(this, 'Arbol')">
+            <area  href="javascript:void(0);" coords="448,90,57" shape="circle" onclick="crearCirculo(this, 'Globo Aerostatico')">
+            <area  href="javascript:void(0);" coords="358,80,22" shape="circle" onclick="crearCirculo(this, 'Pajaro')">
+            <area href="javascript:void(0);" coords="578,301,13" shape="circle"onclick="crearCirculo(this, 'Ventana')">
+        </map>
+<div class="sidebar" id="sidebar">
+            <ul>
+                <li><a href="#" id="increaseFontSizeButton">Aumentar el texto ✓</a></li>
+                <li><a href="#" id="decreaseFontSizeButton">Disminuir el texto ✓</a></li>
+                <li><a href="#" id="grayscaleButton">Escala de grises ✓</a></li>
+                <li><a href="#">Alto contraste ✗</a></li>
+                <li><a href="#" id="invertColorsButton">Invertir Colores ✓</a></li>
+                <li><a href="#">Fondo claro ✗</a></li>
+                <li><a href="#">Fuente legible ✗</a></li>
+                <li><a href="#" id="resetButton">Reset ✓</a></li>
+            </ul>
+</div>
+        <button id="toggleButton">Accesibilidad</button>
+        <script src="js/sidebar.js"></script>
+    </div>
+    </div>
+<audio id="miAudio" src="audio/prueba.mp3" preload="auto"></audio>
+<button id="botonReproducir">Reproducir Audio</button>
+<script src="JS/audio.js"></script>
+<div>
+<a href="/Lamina2.html">
+    <button class="boton">Siguiente</button>
+</div>
+</a>
+
+</body>
+</html>
