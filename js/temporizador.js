@@ -1,5 +1,5 @@
 // Definir la duración del temporizador en segundos
-var duracion = 480; // 8 minutos
+var duracion = 60; // 8 minutos
 
 // Función para actualizar el temporizador en la página
 function actualizarTemporizador() {
