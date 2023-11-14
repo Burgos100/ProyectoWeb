@@ -7,12 +7,6 @@ padding: 0;
 h3 {
 font-size: 30px;
 margin-top: 10px;
-<<<<<<< Updated upstream
-}
-
-p {
-font-size: 20px;
-=======
 font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -26,7 +20,6 @@ h1 {
 p {
 font-size: 20px;
 font-family: Arial, Helvetica, sans-serif;
->>>>>>> Stashed changes
 }
 
 
@@ -83,10 +76,7 @@ padding: 10px;
 h2 {
 font-size: 30px;
 margin-bottom: 10px;
-<<<<<<< Updated upstream
-=======
 font-family: Arial, Helvetica, sans-serif;
->>>>>>> Stashed changes
 }
 .boton {
 width: 90px;
@@ -96,8 +86,6 @@ right:10px;
 padding:10px 20px;
 }
 
-<<<<<<< Updated upstream
-=======
 .sidebar {
     background-color: #ffffff;
     width: 200px;
@@ -230,5 +218,4 @@ height: 375px;
 .boton:hover {
     transform: scale(1.1);
 }
->>>>>>> Stashed changes
 
