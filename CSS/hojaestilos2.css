@@ -96,10 +96,12 @@ text-align: center;
 background-color: white;
 position: relative;
 }
+
 .imagen2{
 width: 692px;
 height: 375px;
 }
+
 .contadorRecuadro {
     position: fixed;
     top: 10px;
@@ -128,13 +130,17 @@ height: 375px;
     margin: 5px;
     font-weight: bold;
 }
+
 #countdown {
     font-size: 24px;
-    background-color: #3498db; /* Color de fondo del recuadro */
-    color: #fff; /* Color del texto */
-    padding: 10px; /* Espacio alrededor del texto */
-    border-radius: 5px; /* Bordes redondeados del recuadro */
-    text-align: center; /* Centrar el texto horizontalmente */
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    position: fixed;
+    top: 250px;
+    right: 50px;
 }
 
 h1{
