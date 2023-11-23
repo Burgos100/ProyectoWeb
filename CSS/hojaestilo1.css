@@ -7,12 +7,6 @@ padding: 0;
 h3 {
 font-size: 30px;
 margin-top: 10px;
-<<<<<<< Updated upstream
-}
-
-p {
-font-size: 20px;
-=======
 font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -26,7 +20,6 @@ h1 {
 p {
 font-size: 20px;
 font-family: Arial, Helvetica, sans-serif;
->>>>>>> Stashed changes
 }
 
 
@@ -83,21 +76,9 @@ padding: 10px;
 h2 {
 font-size: 30px;
 margin-bottom: 10px;
-<<<<<<< Updated upstream
-=======
 font-family: Arial, Helvetica, sans-serif;
->>>>>>> Stashed changes
-}
-.boton {
-width: 90px;
-height: 40px;
-bottom:10px;
-right:10px;
-padding:10px 20px;
 }
 
-<<<<<<< Updated upstream
-=======
 .sidebar {
     background-color: #ffffff;
     width: 200px;
@@ -203,15 +184,17 @@ height: 375px;
     margin: 5px;
     font-weight: bold;
 }
-#countdown {
-    font-size: 24px;
-    background-color: #3498db; /* Color de fondo del recuadro */
-    color: #fff; /* Color del texto */
-    padding: 10px; /* Espacio alrededor del texto */
-    border-radius: 5px; /* Bordes redondeados del recuadro */
-    text-align: center; /* Centrar el texto horizontalmente */
-}
-
+#tiempoRecuadro {
+    position: fixed;
+    top: 20%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: #f0f0f0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
     
 .boton {
     padding: 15px 42px;
@@ -230,5 +213,4 @@ height: 375px;
 .boton:hover {
     transform: scale(1.1);
 }
->>>>>>> Stashed changes
 
