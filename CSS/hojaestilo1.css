@@ -5,8 +5,6 @@ padding: 0;
 
 }
 h3 {
-font-size: 30px;
-margin-top: 10px;
 font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -16,9 +14,12 @@ h1 {
     text-align: center;
  }
 
+ h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
 
 p {
-font-size: 20px;
 font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -73,11 +74,7 @@ border: 2px solid #000;
 padding: 10px;
 }
 
-h2 {
-font-size: 30px;
-margin-bottom: 10px;
-font-family: Arial, Helvetica, sans-serif;
-}
+
 
 .sidebar {
     background-color: #ffffff;
@@ -214,3 +211,17 @@ height: 375px;
     transform: scale(1.1);
 }
 
+
+.recuadro-imagen {
+    display: inline-block;
+    border: 5px solid black; 
+    padding: 5px; 
+  }
+  
+  
+  .imagen-con-borde {
+    display: block; 
+    width: 100%; 
+    height: auto; 
+  }
+  

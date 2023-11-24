@@ -5,20 +5,17 @@ body {
     
     }
     h3 {
-    font-size: 30px;
-    margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
     }
     
     p {
-    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 
     }
 
     .imagen-principal {
-        margin: 0 auto; /* Esto centrará la imagen horizontalmente */
-        display: block; /* Esto asegura que el margin auto funcione correctamente */
+        margin: 0 auto; 
+        display: block; 
     }
 
 
