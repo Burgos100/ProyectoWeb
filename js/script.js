@@ -1,7 +1,7 @@
 let contadorFiguras = 0;
 let areasClicadas = [];
 
-function crearCirculo(area, figuraTexto) {
+function crearRecuadro(area, figuraTexto) {
     const coords = area.getAttribute("coords");
 
     // Verificar si el área ya ha sido clicada
