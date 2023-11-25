@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="CSS/hojaestilos.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="/js/script.js"></script>
+<script src="/js/temporizador.js"></script>
 </head>
 <body>
 <h3>Instrucciones</h3>
@@ -29,23 +30,19 @@
             <ul>
                 <li><a href="#" id="increaseFontSizeButton">Aumentar el texto</a></li>
                 <li><a href="#" id="decreaseFontSizeButton">Disminuir el texto</a></li>
-                <li><a href="#" id="grayscaleButton">Escala de grises</a></li>
-                <li><a href="#">Alto contraste</a></li>
-                <li><a href="#" id="invertColorsButton">Invertir Colores</a></li>
-                <li><a href="#">Fondo claro</a></li>
-                <li><a href="#">Fuente legible</a></li>
+                <li><a href="#" id="playAudioButton">Reproducir Audio</a></li>
                 <li><a href="#" id="resetButton">Reset</a></li>
             </ul>
-    </div>
-    
+        </div>
+        <audio id="audioPlayer">
+            <source src="audio/prueba.mp3" type="audio/mp3">
+        </audio>
+        
         <button id="toggleButton">Accesibilidad</button>
-        <script src="js/sidebar.js"></script>
-    </div>
-    </div>
-<audio id="miAudio" src="/audio/prueba.mp3" preload="auto"></audio>
-<button id="botonReproducir">Reproducir Audio</button>
-<script src="/js/audio.js"></script>
-<div>
+        <script src="../JS/sidebar.js"></script>
+        <script>
+            iniciarTemporizador(10000);
+        </script>
 <a href="/Lamina2.html">
     <button class="boton">Siguiente</button>
 </div>

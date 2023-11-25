@@ -185,3 +185,14 @@ p1{
     padding-left: 1em;
 }
 
+#tiempoRecuadro {
+    position: fixed;
+    top: 20%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: #f0f0f0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }

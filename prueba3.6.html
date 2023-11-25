@@ -5,15 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/hojadeestilo3.css"> 
     <title>Prueba III: Organización Perceptiva.</title>
-    <script src="/js/temporizador2.js"></script>
+    <script src="/js/temporizador.js"></script>
 </head>
 <body>
     <h1>Prueba III: Organización Perceptiva.</h1>
     <hr>
             <h2> Instrucción:</h2>
             <h3>Observa detalladamente cada imagen y marca  la alternativa correcta. Dispones de 1 minuto por pagina para completar la actividad</h3>
-        </div>
-        <div id="countdown">Tiempo restante: 1:00</div>
+</div>
     
 
     <div class="imagen-container">
@@ -75,17 +74,19 @@
     <ul>
         <li><a href="#" id="increaseFontSizeButton">Aumentar el texto</a></li>
         <li><a href="#" id="decreaseFontSizeButton">Disminuir el texto</a></li>
-        <li><a href="#" id="grayscaleButton">Escala de grises</a></li>
-        <li><a href="#">Alto contraste</a></li>
-        <li><a href="#" id="invertColorsButton">Invertir Colores</a></li>
-        <li><a href="#">Fondo claro</a></li>
-        <li><a href="#">Fuente legible</a></li>
+        <li><a href="#" id="playAudioButton">Reproducir Audio</a></li>
         <li><a href="#" id="resetButton">Reset</a></li>
     </ul>
 </div>
+<audio id="audioPlayer">
+    <source src="audio/prueba.mp3" type="audio/mp3">
+</audio>
 
 
 <button id="toggleButton">Accesibilidad</button>
 <script src="../JS/sidebar.js"></script>
+<script>
+    iniciarTemporizador(60, "prueba3.7.html");
+    </script>
 </body>
 </html>

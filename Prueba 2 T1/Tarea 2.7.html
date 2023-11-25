@@ -6,11 +6,10 @@
     <link rel="stylesheet" type="text/css" href="../CSS/hojaestilos2.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prueba II: Pensamiento Analógico</title>
-    <script src="/js/temporizador3.js"></script>
+    <script src="/js/temporizador.js"></script>
     </head>
    
     <body>
-        <div id="countdown">Tiempo restante: 01:15</div>
         <div>
         <h1>Prueba II: Pensamiento Analógico</h1>
             <hr>
@@ -50,16 +49,19 @@
         <br>
         <div class="sidebar" id="sidebar">
             <ul>
-                <li><a href="#" id="increaseFontSizeButton">Aumentar el texto ✓</a></li>
-                <li><a href="#" id="decreaseFontSizeButton">Disminuir el texto ✓</a></li>
-                <li><a href="#" id="grayscaleButton">Escala de grises ✓</a></li>
-                <li><a href="#">Alto contraste ✗</a></li>
-                <li><a href="#" id="invertColorsButton">Invertir Colores ✓</a></li>
-                <li><a href="#">Fondo claro ✗</a></li>
-                <li><a href="#">Fuente legible ✗</a></li>
-                <li><a href="#" id="resetButton">Reset ✓</a></li>
+                <li><a href="#" id="increaseFontSizeButton">Aumentar el texto</a></li>
+                <li><a href="#" id="decreaseFontSizeButton">Disminuir el texto</a></li>
+                <li><a href="#" id="playAudioButton">Reproducir Audio</a></li>
+                <li><a href="#" id="resetButton">Reset</a></li>
             </ul>
-    </div>
-                <button id="toggleButton">Accesibilidad</button>
-                <script src="/js/sidebar.js"></script>
+        </div>
+        <audio id="audioPlayer">
+            <source src="/audio/prueba.mp3" type="audio/mp3">
+        </audio>
+        
+        <button id="toggleButton">Accesibilidad</button>
+        <script src="../JS/sidebar.js"></script>
+        <script>
+            iniciarTemporizador(10000, "Tarea2.8.html");
+        </script>
     </body>

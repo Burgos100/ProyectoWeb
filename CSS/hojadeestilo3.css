@@ -5,20 +5,17 @@ body {
     
     }
     h3 {
-    font-size: 30px;
-    margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
     }
     
     p {
-    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 
     }
 
     .imagen-principal {
-        margin: 0 auto; /* Esto centrará la imagen horizontalmente */
-        display: block; /* Esto asegura que el margin auto funcione correctamente */
+        margin: 0 auto; 
+        display: block; 
     }
 
 
@@ -168,3 +165,14 @@ height: 375px;
 .imagen-principal {
     border: 2px solid blue; /* Borde azul para la imagen principal */
 }
+#tiempoRecuadro {
+    position: fixed;
+    top: 20%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: #f0f0f0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }

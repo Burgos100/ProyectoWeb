@@ -6,17 +6,16 @@
     <link rel="stylesheet" type="text/css" href="../CSS/hojaestilos2.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prueba IV: Memoria-Atención</title>
-    <script src="/js/temporizador3.js"></script>
+    <script src="/js/temporizador.js"></script>
     </head>
    
     <body>
-        <div id="countdown">Tiempo restante: 01:15</div>
         <div>
         <h1>Prueba IV: Memoria-Atención</h1>
             <hr>
             <h2> Instrucción:</h2>
             <h3> Selecciona la alternativa correcta y completa la secuencia seleccionando la alternativa con las figuras o números faltantes.
-                Para completar esta actividad dispones de 3.75 minutos en total.</h3>
+                Para completar esta actividad dispones de 5 minutos en total.</h3>
             <hr>
         </div>
         <div>
@@ -56,16 +55,19 @@
         <br>
         <div class="sidebar" id="sidebar">
             <ul>
-                <li><a href="#" id="increaseFontSizeButton">Aumentar el texto ✓</a></li>
-                <li><a href="#" id="decreaseFontSizeButton">Disminuir el texto ✓</a></li>
-                <li><a href="#" id="grayscaleButton">Escala de grises ✓</a></li>
-                <li><a href="#">Alto contraste ✗</a></li>
-                <li><a href="#" id="invertColorsButton">Invertir Colores ✓</a></li>
-                <li><a href="#">Fondo claro ✗</a></li>
-                <li><a href="#">Fuente legible ✗</a></li>
-                <li><a href="#" id="resetButton">Reset ✓</a></li>
+                <li><a href="#" id="increaseFontSizeButton">Aumentar el texto</a></li>
+                <li><a href="#" id="decreaseFontSizeButton">Disminuir el texto</a></li>
+                <li><a href="#" id="playAudioButton">Reproducir Audio</a></li>
+                <li><a href="#" id="resetButton">Reset</a></li>
             </ul>
-    </div>
-                <button id="toggleButton">Accesibilidad</button>
-                <script src="/js/sidebar.js"></script>
+        </div>
+        <audio id="audioPlayer">
+            <source src="/audio/prueba.mp3" type="audio/mp3">
+        </audio>
+        
+        <button id="toggleButton">Accesibilidad</button>
+        <script src="../JS/sidebar.js"></script>
+        <script>
+            iniciarTemporizador(10, "/Prueba 4 T1/Tarea 1.2.html");
+        </script>
     </body>
