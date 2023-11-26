@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../CSS/hojaestilos2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba II: Pensamiento Analógico</title>
+    <script src="../js/temporizador.js"></script>
+    </head>
+   
+    <body>
+        <div>
+        <h1>Prueba II: Pensamiento Analógico</h1>
+            <hr>
+            <h2> Instrucción:</h2>
+            <h3>En los siguientes ejercicios encontrarás analogías, lee y selecciona la alternativa que
+                completa la oración de forma correcta. Dispones de 10 minutos en total para completar esta actividad.</h3>
+            <hr>  
+        </div>
+        <div>
+            <p1><b>Ejemplo:</b> El <b>escritor</b> es a <b>libro</b> como ...</p1>
+            <label for="ejemplo"></label>
+            <h5>
+            A. Escritor a cuchara. <input type="radio" name="ejemplo" disabled>
+            <br>
+            B. Pintor a lupa.   <input type="radio" name="ejemplo" disabled>
+            <br>
+            <b>C. Pintor a pintura. <input type="radio" name="ejemplo" checked></b>
+            <br>
+            D. Escritor a lámpara. <input type="radio" name="ejemplo" disabled>
+            </h5>
+            <hr>
+        </div>
+        <form action="guardar_respuestas_1.php" method="post">
+            <div>
+                <p>1. La <b>gallina</b> es a <b>huevo</b> como…</p>
+                <label for="pregunta1"></label>
+                <h4>
+                    A. Perro es a huevo. <input type="radio" name="pregunta1" value="A">
+                    <br>
+                    B. Leche es a perro. <input type="radio" name="pregunta1" value="B">
+                    <br>
+                    C. Vaca es a huevo.  <input type="radio" name="pregunta1" value="C">
+                    <br>
+                    D. Vaca es a leche.  <input type="radio" name="pregunta1" value="D">
+                </h4>
+        
+                <p>2. El <b>pájaro</b> es a <b>aire</b> como…</p>
+                <label for="pregunta2"></label>
+                <h4>
+                    A. Pez es a agua. <input type="radio" name="pregunta2" value="A">
+                    <br>
+                    B. Pájaro es a pez. <input type="radio" name="pregunta2" value="B">
+                    <br>
+                    C. Pez es a tierra. <input type="radio" name="pregunta2" value="C">
+                    <br>
+                    D. Pájaro es a piedra. <input type="radio" name="pregunta2" value="D">
+                </h4>
+            </div>
+            <button type="submit" class="boton">Guardar Respuestas</button>
+        </form>
+        <div class="sidebar" id="sidebar">
+            <ul>
+                <li><a href="#" id="increaseFontSizeButton">Aumentar el texto</a></li>
+                <li><a href="#" id="decreaseFontSizeButton">Disminuir el texto</a></li>
+                <li><a href="#" id="playAudioButton">Reproducir Audio</a></li>
+                <li><a href="#" id="resetButton">Reset</a></li>
+            </ul>
+        </div>
+        <audio id="audioPlayer">
+            <source src="../audio/Pensamiento_analógico/prueba_2_pensamiento_analógico.mp3" type="audio/mp3">
+        </audio>
+        
+        <button id="toggleButton">Accesibilidad</button>
+        <script src="../JS/sidebar.js"></script>
+        <script>
+            iniciarTemporizador(75, "Tarea_2.2.html");
+        </script>
+    </body>

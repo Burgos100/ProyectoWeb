@@ -4,6 +4,48 @@ body {
     margin-right:120px;
     padding: 0;
 } 
+
+form {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.formulario {
+display: flex;
+gap: 15px;
+}
+
+.cuadro {
+    border: 2px solid rgba(194, 194, 194, 0.904);
+    border-radius: 8px;
+    margin: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    position: relative;
+}
+
+:focus::placeholder {
+    color: transparent;
+}
+
+.respuesta {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 .boton {
     padding: 15px 42px;
     border: 1px solid rgb(0, 0, 0);
@@ -17,7 +59,6 @@ body {
     margin: 8px auto;
     cursor: pointer;
     transition: transform 0.3s ease;
-    text-decoration: none;
 }
 
 .boton:hover {
@@ -132,6 +173,18 @@ height: 375px;
     font-weight: bold;
 }
 
+#tiempoRecuadro {
+    position: fixed;
+    top: 10%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: #f0f0f0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
 #countdown {
     font-size: 24px;
     background-color: #3498db;
@@ -159,41 +212,11 @@ h3{
     font-size: 25px;
 }
 
-h4{
+label{
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    font-size: 16px;
-    background: bisque;
-    width: fit-content;
-    margin: 2rem auto;
+    color: #383838;
 }
-
-h5{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    font-size: 16px;
-    padding-left: 1em;
-}
-p{
-    font-family: Arial, Helvetica, sans-serif;
+.contenedor {
     text-align: center;
-    width: fit-content;
-    margin: auto;
-}
-
-p1{
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 1em;
-}
-
-#tiempoRecuadro {
-    position: fixed;
-    top: 10%;
-    right: 0;
-    transform: translateY(-50%);
-    background-color: #f0f0f0;
-    padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    text-align: center;
+    align-items: center;
   }

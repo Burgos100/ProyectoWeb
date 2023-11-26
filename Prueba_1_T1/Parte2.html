@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../CSS/hojaestilo1.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<h1>Prueba I: Reflexibidad.</h1>
+<h3>Instrucción:</h3>
+        <p>Según lo observado en la imagen anterior, escriba una V si la afirmación es correcta y una F si es falsa..<p>
+<h3>Es correcto afirmar que:</h3>
+    </div>
+    <form action="guardar_respuestas_2.php" method="post">
+    <div class="pregunta">
+        <p>6. El diseño del hombre de polera corresponde a un embudo.</p>
+        <input type="text" name="pregunta6" maxlength="1" size="1" class="respuesta-input">
+    </div>
+    <hr class="line">
+
+    <div class="pregunta">
+        <p>7. En el polerón del niño que está cruzando el paso cebra se observa el número ocho.</p>
+        <input type="text" name="pregunta7" maxlength="1" size="1" class="respuesta-input">
+    </div>
+
+    <hr class="line">
+
+    <div class="pregunta">
+        <p>8. En el poste de luz se observa la figura de un teléfono.</p>
+        <input type="text" name="pregunta8" maxlength="1" size="1" class="respuesta-input">
+    </div>
+
+    <hr class="line">
+
+    <div class="pregunta">
+        <p>9. El hombre con corona en la cabeza tiene solo un calcetín en su pie izquierdo.</p>
+        <input type="text" name="pregunta9" maxlength="1" size="1" class="respuesta-input">
+    </div>
+
+    <hr class="line">
+
+    <div class="pregunta">
+        <p>10. El hombre ubicado frente a la puerta de cuadros está saludando a la señora que está usando un moño en su cabello.</p>
+        <input type="text" name="pregunta10" maxlength="1" size="1" class="respuesta-input">
+    </div>
+    
+    <hr class="line">
+
+    <button type="submit" class="boton">Guardar Respuestas</button>
+</form>
+      <div class="sidebar" id="sidebar">
+        <ul>
+            <li><a href="#" id="increaseFontSizeButton">Aumentar el texto</a></li>
+            <li><a href="#" id="decreaseFontSizeButton">Disminuir el texto</a></li>
+            <li><a href="#" id="playAudioButton">Reproducir Audio</a></li>
+            <li><a href="#" id="resetButton">Reset</a></li>
+        </ul>
+    </div>
+    <audio id="audioPlayer">
+        <source src="../audio/Prueba1_Reflexibidad/instrucción_tarea_1_Reflexibidad_verdadero_o_falso.mp3" type="audio/mp3">
+    </audio>
+    
+    <button id="toggleButton">Accesibilidad</button>
+    <script src="../js/sidebar.js"></script>
+</body>
+</html>

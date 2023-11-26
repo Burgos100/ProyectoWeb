@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../CSS/hojaestilos4.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/temporizador.js"></script>
+    <title>Prueba IV: Memoria-Atención</title>
+</head>
+
+<body>
+    <form action="guardar_respuestas.php" method="post">
+        <div>
+            <h1>Prueba IV: Memoria-Atención</h1>
+            <hr>
+            <h2>Instrucción:</h2>
+            <h3>Observa atentamente las siguientes secuencias de figuras. Cada figura corresponde a un símbolo
+                que debes escribir en los recuadros de abajo, siguiendo el orden especificado.</h3>
+        </div>
+        <hr>
+        <div>
+            <h3>1.<center><img src="../IMG/1.png"></center></h3>
+            <div class="formulario">
+                <div class="cuadro" class="contenedor">
+                    <label for="palabra1">Palabra 1:</label>
+                    <input type="text" id="palabra1" name="palabra1" placeholder="Ingrese la palabra 1" class="respuesta">
+                </div>
+                <div class="cuadro">
+                    <label for="palabra2">Palabra 2:</label>
+                    <input type="text" id="palabra2" name="palabra2" placeholder="Ingrese la palabra 2" class="respuesta">
+                </div>
+                <div class="cuadro">
+                    <label for="palabra3">Palabra 3:</label>
+                    <input type="text" id="palabra3" name="palabra3" placeholder="Ingrese la palabra 3" class="respuesta">
+                </div>
+                <div class="cuadro">
+                    <label for="palabra4">Palabra 4:</label>
+                    <input type="text" id="palabra4" name="palabra4" placeholder="Ingrese la palabra 4" class="respuesta">
+                </div>
+                <div class="cuadro">
+                    <label for="palabra5">Palabra 5:</label>
+                    <input type="text" id="palabra5" name="palabra5" placeholder="Ingrese la palabra 5" class="respuesta">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <h3>2.<center><img src="../IMG/2.png"></center></h3>
+            <div class="formulario">
+                <div class="cuadro" class="contenedor">
+                    <label for="palabra1">Palabra 1:</label>
+                    <input type="text" id="palabra6" name="palabra6" placeholder="Ingrese la palabra 1" class="respuesta">
+                </div>
+                <div class="cuadro">
+                    <label for="palabra2">Palabra 2:</label>
+                    <input type="text" id="palabra7" name="palabra7" placeholder="Ingrese la palabra 2" class="respuesta">
+                </div>
+                <div class="cuadro">
+                    <label for="palabra3">Palabra 3:</label>
+                    <input type="text" id="palabra8" name="palabra8" placeholder="Ingrese la palabra 3" class="respuesta">
+                </div>
+                <div class="cuadro">
+                    <label for="palabra4">Palabra 4:</label>
+                    <input type="text" id="palabra9" name="palabra9" placeholder="Ingrese la palabra 4" class="respuesta">
+                </div>
+                <div class="cuadro">
+                    <label for="palabra5">Palabra 5:</label>
+                    <input type="text" id="palabra10" name="palabra10" placeholder="Ingrese la palabra 5" class="respuesta">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <button type="submit" class="boton">Guardar Respuestas</button>
+    </form>
+    <br>
+        <br>
+        <div class="sidebar" id="sidebar">
+            <ul>
+                <li><a href="#" id="increaseFontSizeButton">Aumentar el texto</a></li>
+                <li><a href="#" id="decreaseFontSizeButton">Disminuir el texto</a></li>
+                <li><a href="#" id="playAudioButton">Reproducir Audio</a></li>
+                <li><a href="#" id="resetButton">Reset</a></li>
+            </ul>
+        </div>
+    
+        <button id="toggleButton">Accesibilidad</button>
+        <script src="../JS/sidebar.js"></script>
+        <script>
+            iniciarTemporizador(240, "Tarea2.3.html");
+        </script>
+    </body>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/hojaestilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/script.js"></script>
+    <script src="../js/temporizador.js"></script>
+</head>
+<body>
+    <h3>Instrucciones</h3>
+    <p>Clickea sobre las diez diferencias en la siguiente imagen. Para confirmar que es una diferencia, al clickear sobre ella se generará un recuadro a la derecha de la imagen registrando las diferencias.</p>
+    <div class="recuadro-contenedor">
+        <div class="recuadro2">
+            <H2>Lámina 2</H2>
+            <img src="../IMAGENES/prueba 3.jpg" usemap="#diferencias" class="imagen2" data-lamina="2">
+            <map name="diferencias">
+                <area href="javascript:void(0);" coords="174,49,49" shape="circle" onclick="crearRecuadro(this, 'Avion')">
+                <area href="javascript:void(0);" coords="150,177,41" shape="circle" onclick="crearRecuadro(this, 'Chimenea')">
+                <area href="javascript:void(0);" coords="119,341,27" shape="circle" onclick="crearRecuadro(this, 'Puerta 1')">
+                <area href="javascript:void(0);" coords="60,296,34" shape="circle" onclick="crearRecuadro(this, 'Semaforo')">
+                <area href="javascript:void(0);" coords="282,139,49" shape="circle" onclick="crearRecuadro(this, 'Nube')">
+                <area href="javascript:void(0);" coords="361,349,29" shape="circle" onclick="crearRecuadro(this, 'Puerta 2')">
+                <area href="javascript:void(0);" coords="530,315,32" shape="circle" onclick="crearRecuadro(this, 'Arbol')">
+                <area href="javascript:void(0);" coords="448,90,57" shape="circle" onclick="crearRecuadro(this, 'Globo Aerostatico')">
+                <area href="javascript:void(0);" coords="358,80,22" shape="circle" onclick="crearRecuadro(this, 'Pajaro')">
+                <area href="javascript:void(0);" coords="578,301,13" shape="circle" onclick="crearRecuadro(this, 'Ventana')">
+            </map>
+            <div class="sidebar" id="sidebar">
+                <ul>
+                    <li><a href="#" id="increaseFontSizeButton">Aumentar el texto</a></li>
+                    <li><a href="#" id="decreaseFontSizeButton">Disminuir el texto</a></li>
+                    <li><a href="#" id="playAudioButton">Reproducir Audio</a></li>
+                    <li><a href="#" id="resetButton">Reset</a></li>
+                </ul>
+            </div>
+            <audio id="audioPlayer">
+                <source src="../audio/Memoria_y_atención/memoria_y_atención_tarea_3_parte2.mp3" type="audio/mp3">
+            </audio>
+            <button id="toggleButton">Accesibilidad</button>
+            <script src="../JS/sidebar.js"></script>
+            <script>
+                iniciarTemporizador (300, "../Final.html");
+        </script>
+        </div>
+    </div>
+    <button class="boton" onclick="siguientePagina()">Finalizar</button>
+
+
+</body>
+</html>
