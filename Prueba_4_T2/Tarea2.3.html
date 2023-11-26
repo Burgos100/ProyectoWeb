@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../CSS/hojaestilos4.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/temporizador.js"></script>
+    <title>Prueba IV: Memoria-Atención</title>
+</head>
+
+<body>
+    <form action="guardar_respuestas2.php" method="post">
+        <div>
+            <h1>Prueba IV: Memoria-Atención</h1>
+            <hr>
+            <h2>Instrucción:</h2>
+            <h3>Observa atentamente las siguientes secuencias de figuras. Cada figura corresponde a un símbolo
+                que debes escribir en los recuadros de abajo, siguiendo el orden especificado.</h3>
+        </div>
+        <hr>
+        <div>
+            <h3>3.<center><img src="../IMG/3.png"></center></h3>
+            <div class="formulario">
+                <div class="cuadro" class="contenedor">
+                    <label for="palabra1_3">Palabra 1:</label>
+                    <input type="text" id="palabra1_3" name="palabra1_3" placeholder="Ingrese la palabra 1" class="respuesta">
+                </div>
+                <div class="cuadro">
+                    <label for="palabra2_3">Palabra 2:</label>
+                    <input type="text" id="palabra2_3" name="palabra2_3" placeholder="Ingrese la palabra 2" class="respuesta">
+                </div>
+                <div class="cuadro">
+                    <label for="palabra3_3">Palabra 3:</label>
+                    <input type="text" id="palabra3_3" name="palabra3_3" placeholder="Ingrese la palabra 3" class="respuesta">
+                </div>
+                <div class="cuadro">
+                    <label for="palabra4_3">Palabra 4:</label>
+                    <input type="text" id="palabra4_3" name="palabra4_3" placeholder="Ingrese la palabra 4" class="respuesta">
+                </div>
+                <div class="cuadro">
+                    <label for="palabra5_3">Palabra 5:</label>
+                    <input type="text" id="palabra5_3" name="palabra5_3" placeholder="Ingrese la palabra 5" class="respuesta">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <h3>4.<center><img src="../IMG/4.png"></center></h3>
+            <div class="formulario">
+                <div class="cuadro" class="contenedor">
+                    <label for="palabra1_4">Palabra 1:</label>
+                    <input type="text" id="palabra1_4" name="palabra1_4" placeholder="Ingrese la palabra 1" class="respuesta">
+                </div>
+                <div class="cuadro">
+                    <label for="palabra2_4">Palabra 2:</label>
+                    <input type="text" id="palabra2_4" name="palabra2_4" placeholder="Ingrese la palabra 2" class="respuesta">
+                </div>
+                <div class="cuadro">
+                    <label for="palabra3_4">Palabra 3:</label>
+                    <input type="text" id="palabra3_4" name="palabra3_4" placeholder="Ingrese la palabra 3" class="respuesta">
+                </div>
+                <div class="cuadro">
+                    <label for="palabra4_4">Palabra 4:</label>
+                    <input type="text" id="palabra4_4" name="palabra4_4" placeholder="Ingrese la palabra 4" class="respuesta">
+                </div>
+                <div class="cuadro">
+                    <label for="palabra5_4">Palabra 5:</label>
+                    <input type="text" id="palabra5_4" name="palabra5_4" placeholder="Ingrese la palabra 5" class="respuesta">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <h3>5.<center><img src="../IMG/5.png"></center></h3>
+            <div class="formulario">
+                <div class="cuadro" class="contenedor">
+                    <label for="palabra1_5">Palabra 1:</label>
+                    <input type="text" id="palabra1_5" name="palabra1_5" placeholder="Ingrese la palabra 1" class="respuesta">
+                </div>
+                <div class="cuadro">
+                    <label for="palabra2_5">Palabra 2:</label>
+                    <input type="text" id="palabra2_5" name="palabra2_5" placeholder="Ingrese la palabra 2" class="respuesta">
+                </div>
+                <div class="cuadro">
+                    <label for="palabra3_5">Palabra 3:</label>
+                    <input type="text" id="palabra3_5" name="palabra3_5" placeholder="Ingrese la palabra 3" class="respuesta">
+                </div>
+                <div class="cuadro">
+                    <label for="palabra4_5">Palabra 4:</label>
+                    <input type="text" id="palabra4_5" name="palabra4_5" placeholder="Ingrese la palabra 4" class="respuesta">
+                </div>
+                <div class="cuadro">
+                    <label for="palabra5_5">Palabra 5:</label>
+                    <input type="text" id="palabra5_5" name="palabra5_5" placeholder="Ingrese la palabra 5" class="respuesta">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <br>
+
+        <button type="submit" class="boton">Guardar Respuestas</button>
+    </form>
+    <br>
+        <br>
+        <div class="sidebar" id="sidebar">
+            <ul>
+                <li><a href="#" id="increaseFontSizeButton">Aumentar el texto</a></li>
+                <li><a href="#" id="decreaseFontSizeButton">Disminuir el texto</a></li>
+                <li><a href="#" id="playAudioButton">Reproducir Audio</a></li>
+                <li><a href="#" id="resetButton">Reset</a></li>
+            </ul>
+        </div>
+
+        <button id="toggleButton">Accesibilidad</button>
+        <script src="../JS/sidebar.js"></script>
+        <script>
+            iniciarTemporizador(360, "../Prueba_4_T3/Lamina1.html");
+        </script>
+    </body>

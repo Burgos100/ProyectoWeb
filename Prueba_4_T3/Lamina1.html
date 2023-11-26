@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../CSS/hojaestilos.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="../js/temporizador.js"></script>
+</head>
+<body>
+    <div>
+        <h3>Instrucción:</h3>
+        <p>Observa la lámina 1, debes recordar la mayor
+        cantidad de detalles en 2 minutos. Luego, tendrás que encontrar
+        las 10 diferencias en la lámina dos (pasado los 2 minutos te redirigiran a la siguiente pagina)
+        y solo debes clickear sobre ellas.</p>
+    </div>
+    <div class="contenedor">
+        <h2>Lámina 1</h2>
+    <div class = "recuadro-contenedor">
+        <img src = "../IMAGENES/prueba 4.jpg" class = "imagen">
+    </div>
+    </div>
+    <div class="sidebar" id="sidebar">
+        <ul>
+            <li><a href="#" id="increaseFontSizeButton">Aumentar el texto</a></li>
+            <li><a href="#" id="decreaseFontSizeButton">Disminuir el texto</a></li>
+            <li><a href="#" id="playAudioButton">Reproducir Audio</a></li>
+            <li><a href="#" id="resetButton">Reset</a></li>
+        </ul>
+    </div>
+    <audio id="audioPlayer">
+        <source src="../audio/Memoria_y_atención/memoria_y_atención_tarea_3.mp3" type="audio/mp3">
+    </audio>
+    
+    <button id="toggleButton">Accesibilidad</button>
+    <script src="../JS/sidebar.js"></script>
+    <script>
+        iniciarTemporizador(120, "Lamina2.html");
+    </script>
+            <a href="Lamina2.html">
+                <button class = "boton">Siguiente</button>
+              </a>
+</body>
+</html>

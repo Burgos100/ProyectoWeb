@@ -1,9 +1,9 @@
 body {
     background-color: bisque;
-    margin:0;
+    margin-left:100px;
+    margin-right:120px;
     padding: 0;
-    
-    }
+} 
     h3 {
     font-family: Arial, Helvetica, sans-serif;
     }
@@ -17,8 +17,6 @@ body {
         margin: 0 auto; 
         display: block; 
     }
-
-
 
 
 .sidebar {
@@ -167,7 +165,7 @@ height: 375px;
 }
 #tiempoRecuadro {
     position: fixed;
-    top: 20%;
+    top: 10%;
     right: 0;
     transform: translateY(-50%);
     background-color: #f0f0f0;
