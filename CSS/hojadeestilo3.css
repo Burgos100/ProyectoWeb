@@ -18,6 +18,12 @@ body {
         display: block; 
     }
 
+form{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
 
 .sidebar {
     background-color: #ffffff;
@@ -152,12 +158,18 @@ height: 375px;
     transform: scale(1.1);
 }
 
+
 .alternativa-imagen {
     border: 2px solid black; /* Agrega un borde negro alrededor de las imágenes de alternativas */
+    
 }
 
 .alternativa-label {
-    display: block; /* Asegura que el borde envuelva completamente la imagen y la etiqueta */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+
 }
 
 .imagen-principal {
