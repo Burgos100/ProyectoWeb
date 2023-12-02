@@ -1,92 +1,103 @@
 body {
-    background-color: bisque;
-    margin-left:100px;
-    margin-right:120px;
-    padding: 0;
+background-color: bisque;
+margin-left:100px;
+margin-right:120px;
+padding: 0;
 } 
-    h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    }
+
+h2{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h3 {
+font-family: Arial, Helvetica, sans-serif;
+}
     
-    p {
-    font-family: Arial, Helvetica, sans-serif;
+p {
+font-family: Arial, Helvetica, sans-serif;
+}
 
-    }
+h1{
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
 
-    .imagen-principal {
-        margin: 0 auto; 
-        display: block; 
-    }
+.imagen-principal {
+margin: 0 auto; 
+display: block; 
+}
 
 form{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    align-content: center;
+align-items: center;
+justify-content: center;
+text-align: center;
+align-content: center;
 }
 
 .sidebar {
-    background-color: #ffffff;
-    width: 200px;
-    height: auto;
-    position: fixed;
-    border-radius: 14px;
-    border: 1px solid #2C87C2;
-    top: 100px;
-    left: 0;
-    transition: transform 0.3s ease-in-out; 
-    transform: translateX(-250px); 
+background-color: #ffffff;
+width: 200px;
+height: auto;
+position: fixed;
+border-radius: 14px;
+border: 1px solid #2C87C2;
+top: 100px;
+left: 0;
+transition: transform 0.3s ease-in-out; 
+transform: translateX(-250px); 
 }
 
 .sidebar.open {
-    transform: translateX(0); 
+transform: translateX(0); 
 }
 
 .sidebar ul {
-    list-style: none;
-    padding: 0;
+list-style: none;
+padding: 0;
 }
 
 .sidebar ul li {
-    padding: 10px;
+padding: 10px;
 }
 
 .sidebar ul li a {
-    text-decoration: none;
-    color: #000000;
-    font-size: 16px;
+text-decoration: none;
+color: #000000;
+font-size: 16px;
 }
 
 .sidebar ul li a:hover {
-    cursor: pointer;
+cursor: pointer;
 }
 
 .sidebar ul li a:hover {
-    cursor: pointer;
+cursor: pointer;
 }
-
 
 #toggleButton {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    background-color: #ffffff;
-    color: #000000;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 14px;
-    border: 1px solid #2C87C2;
-    transition: transform 0.3s ease;
+position: fixed;
+top: 10px;
+right: 10px;
+background-color: #ffffff;
+color: #000000;
+border: none;
+padding: 10px;
+cursor: pointer;
+border-radius: 14px;
+border: 1px solid #2C87C2;
+transition: transform 0.3s ease;
 }
+
 #toggleButton:hover {
-    transform: scale(1.1);
+transform: scale(1.1);
 }
 
 .content {
-    margin-left: 0px;
-    padding: 20px;
+margin-left: 0px;
+padding: 20px;
 }
+
 .recuadro2 {
 border: 2px solid black;
 margin: 10px;
@@ -98,91 +109,85 @@ text-align: center;
 background-color: white;
 position: relative;
 }
+
 .imagen2{
 width: 692px;
 height: 375px;
 }
+
 .contadorRecuadro {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    background-color: #ffffff;
-    padding: 10px;
-    border: 1px solid #000000;
-    border-radius: 5px;
+position: fixed;
+top: 10px;
+left: 10px;
+background-color: #ffffff;
+padding: 10px;
+border: 1px solid #000000;
+border-radius: 5px;
 }
 
 .lateralDerecho {
-    position: fixed;
-    top: 104px;
-    right: 0;
-    width: 200px; /* Ancho del lateral izquierdo */
-    background-color: #ffffff;
-    padding: 10px;
-    border: 2px solid #000000;
-    overflow-y: auto; /* Habilitar desplazamiento vertical si el contenido es demasiado largo */
-    height: auto; /* Ajuste para ocupar toda la altura de la pantalla */
+position: fixed;
+top: 104px;
+right: 0;
+width: 200px;
+background-color: #ffffff;
+padding: 10px;
+border: 2px solid #000000;
+overflow-y: auto;
+height: auto;
 }
 
 .textoRecuadro {
-    border: 2px solid #000000;
-    padding: 5px;
-    margin: 5px;
-    font-weight: bold;
+border: 2px solid #000000;
+padding: 5px;
+margin: 5px;
+font-weight: bold;
 }
-#countdown {
-    font-size: 24px;
-    background-color: #3498db; /* Color de fondo del recuadro */
-    color: #fff; /* Color del texto */
-    padding: 10px; /* Espacio alrededor del texto */
-    border-radius: 5px; /* Bordes redondeados del recuadro */
-    text-align: center; /* Centrar el texto horizontalmente */
-}
-
     
 .boton {
-    padding: 15px 42px;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 15px;
-    color: rgb(0, 0, 0);
-    background-color: rgb(241, 241, 241);
-    text-align: center;
-    text-decoration: none; 
-    display: block;
-    font-size: 16px;
-    margin: 8px auto;
-    cursor: pointer;
-    transition: transform 0.3s ease;
+padding: 15px 42px;
+border: 1px solid rgb(0, 0, 0);
+border-radius: 15px;
+color: rgb(0, 0, 0);
+background-color: rgb(241, 241, 241);
+text-align: center;
+text-decoration: none; 
+display: block;
+font-size: 16px;
+margin: 8px auto;
+cursor: pointer;
+transition: transform 0.3s ease;
 }
+
 .boton:hover {
-    transform: scale(1.1);
+transform: scale(1.1);
 }
 
 
 .alternativa-imagen {
-    border: 2px solid black; /* Agrega un borde negro alrededor de las imágenes de alternativas */
+border: 2px solid black;
     
 }
 
 .alternativa-label {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    align-content: center;
-
+align-items: center;
+justify-content: center;
+text-align: center;
+align-content: center;
 }
 
 .imagen-principal {
-    border: 2px solid blue; /* Borde azul para la imagen principal */
+border: 2px solid blue;
 }
+
 #tiempoRecuadro {
-    position: fixed;
-    top: 10%;
-    right: 0;
-    transform: translateY(-50%);
-    background-color: #f0f0f0;
-    padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    text-align: center;
-  }
+position: fixed;
+top: 5%;
+left: 0;
+transform: translateY(-50%);
+background-color: #f0f0f0;
+padding: 15px;
+border: 1px solid #ccc;
+border-radius: 5px;
+text-align: center;
+}

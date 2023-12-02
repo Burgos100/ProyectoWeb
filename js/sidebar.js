@@ -6,7 +6,6 @@ const playAudioButton = document.getElementById('playAudioButton');
 const resetButton = document.getElementById('resetButton');
 const audioPlayer = document.getElementById('audioPlayer');
 
-// Agregar un evento de clic al botón de alternar (toggle) para abrir/cerrar el menú
 toggleButton.addEventListener('click', () => {
     sidebar.classList.toggle('open'); // Alternar la clase 'open' en la barra lateral
 }); 
